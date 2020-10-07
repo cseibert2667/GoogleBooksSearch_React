@@ -1,10 +1,12 @@
-import React from 'react';
-import Nav from "../components/Header/Header"
+import React from "react";
+import SearchBar from "../components/SearchBar/SearchBar";
+import Results from "../components/Results/Results"
 
 export default function Search() {
-    return (
-        <div>
-            <h1>hello</h1>
-        </div>
-    )
+  return (
+    <div>
+      <SearchBar />
+      <Results />
+    </div>
+  );
 }
