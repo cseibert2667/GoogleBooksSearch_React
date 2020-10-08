@@ -19,7 +19,7 @@ export default function Book(props) {
         </Row>
         <Row>
           <Col>
-          <p>Author</p>
+          <p className="text-muted">Author</p>
           </Col>
         </Row>
         <Row>
